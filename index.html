@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="todoapp">
+    <div class="title"><h1>To-Do-App</h1></div>
+    <div class="listoftasks">
+        <input type="text" id="todoList" class="listinput" placeholder="Enter task to perform">
+        <button type="button" class="btnaddtask" id="btnaddtask" onclick="addtodoList()">Add Task</button>
+        <button id="btnR"  onclick="dltAll()" class="btn btn-success">Delete Task</button>
+        </div>
+        <ul id="finalList">
+
+        </ul>
+
+    </div>
+
+
+</div>
+<body>
+    <script src="app.js"></script>
+</body>
+</html>

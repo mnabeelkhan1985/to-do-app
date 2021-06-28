@@ -1,0 +1,7 @@
+body{background-image:url("todoapp.png");}
+.todoapp{margin-left:300px;width:50%;height:700px;background-color: antiquewhite;text-align: center;border:5px solid pink;border-radius: 50px;}
+.title{color:hotpink;font-family:Verdana, Geneva, Tahoma, sans-serif;background-color:pink;border-radius: 20px;height:45px;width:300px;margin-left: 200px;}
+input{width:300px;height:35px;border:5px solid pink;border-radius:10px;}
+button{margin-right:70px;height:45px;width:100px;border:5px solid pink;border-radius:10px;margin-left:20px;color:hotpink;font-weight: bolder;}
+.listoftasks{display:flex;width:100%;margin-top:50px;margin-left:50px;}
+ul{list-style-type:none;margin-left:none;}
